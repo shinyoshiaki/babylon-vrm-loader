@@ -54,5 +54,6 @@ export declare class VRMManager {
      * mesh 番号からメッシュを探す
      * gltf の mesh 番号は `metadata.gltf.pointers` に記録されている
      */
-    findMesh(meshIndex: number): Nullable<Mesh>;
+    private findMesh;
+    testFind(): Nullable<Mesh>;
 }
